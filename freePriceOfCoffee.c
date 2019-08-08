@@ -6,9 +6,9 @@ int main()
     int X,P,price=0;
     scanf("%d %d",&X,&P);
     price=X;
-    while(X>0)
+    while(X>1)
     {
-        X=(int)((float)X-(float)P*X/100);
+        X=X-P*X/100;
         price+=X;
         
     }
