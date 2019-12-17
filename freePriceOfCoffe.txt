@@ -3,7 +3,7 @@
 
 int main()
 {
-    int X,P,price=0;
+    int X,P,Price=0;
     scanf("%d %d",&X,&P);
     price=X;
     while(X>1)
